@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformulär</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header> 
+<h1>Kontaktformulär</h1>
+</header>
+
+<form action ="https://formshow.systemmentor.se/" method="post">
+        
+<h2>Registrera dig här</h2>
+<h3>Fyll i din kontaktinformation nedan:</h3>
+
+<p><div><label for="Epost">Email</label></div>
+<input type="email" name="Epost" id="1" placeholder="Enter email" label for="Epost" autofocus> 
+
+<p><div><label>Fyll i för- och efternamn</label> </div>
+
+
+<div> <input type="text" name="ForNamn" id="name" placeholder="Förnamn" required>
+<input type="text" name="EfterNamn" id="name2" placeholder="Efternamn" label for="EfterNamn"></div>
+
+<p><div><label for id="2" >Välj lösenord</label></div>
+
+<div><input type="password" name="Lösen" id="2" placeholder="Password">
+<input type="password" name="Lösen" id="3" placeholder="Confirm Password"></div>
+
+
+<p></p>
+ <!-- Checkbox -->
+<input type="checkbox" name="Jatack" id="4">
+<label for="Jatack">Ja tack skicka nyheter till mig.</label>
+<p> 
+    <!-- Radio buttons -->
+    <input type="radio" name="TypavKontakt" id="Företag" value="test">
+    <label for="Företag">Företag</label> 
+    <input type="radio" name="TypavKontakt" id="Bekant" value="XXX">
+    <label for="Bekant">Bekant</label>
+    
+</p>
+
+
+<p><div><button type="submit">Registrera mig</button> </div>
+ 
+ <p><div>Redan kontakt? </div>
+<a href="mailto:johannafalkenmark@gmail.com?subject=Intresseförfrågan&body=Jag är intresserad av att komma i kontakt med dig">Skicka mail</a>
+ <p>
+</form>
+
+     <!-- dropdown -->
+<p><div><label for="djur">Choose an animal</label>
+<select name="djur" id="8" required>
+    <option value=""> Välj ett</option>
+    <option value="hund">Hund</option>>
+    <option value="katt">Katt</option>>
+
+</select></div></p>
+<footer> Johanna Falkenmark 2024</footer>
+
+</body>
