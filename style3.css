@@ -70,38 +70,31 @@ h1 {
 
     &:hover {
       color: var(--pink-box-color2);
-      
     }
   }
 }
-
-
 
 .bx-chevrons-down {
   display: flex;
   color: var(--beige-box-color1);
   &:hover {
-      color: var(--pink-box-color2);
-      
-    }
+    color: var(--pink-box-color2);
+  }
 }
 .bxl-linkedin {
   color: var(--beige-box-color1);
   display: flex;
   &:hover {
-      color: var(--pink-box-color2);
-      
-    }
+    color: var(--pink-box-color2);
+  }
 }
 .bx-envelope {
   color: var(--beige-box-color1);
   display: flex;
   &:hover {
-      color: var(--pink-box-color2);
-      
-    }
+    color: var(--pink-box-color2);
+  }
 }
-
 
 .grid {
   padding: 8px;
@@ -133,8 +126,6 @@ h1 {
   border-style: inherit;
   border-width: 8px;
   box-shadow: var(--standard-box-shadow);
-
- 
 }
 
 .column-3 {
@@ -172,36 +163,35 @@ h1 {
 }
 
 .primary-button {
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 8px;
-  
-    box-shadow: grey;
-    border: 4px;
-    border-style: initial;
-    border-color: rgb(47, 32, 12);
-    background-color: var(--beige-box-color1);
-    font-size: 15px;
-    color: rgb(40, 35, 35);
-    
-    font-family: var(--standard-font);
-    font-weight: 500;
-    display: flex;
-    box-shadow: var(--standard-box-shadow);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+
+  box-shadow: grey;
+  border: 4px;
+  border-style: initial;
+  border-color: rgb(47, 32, 12);
+  background-color: var(--beige-box-color1);
+  font-size: 15px;
+  color: rgb(40, 35, 35);
+
+  font-family: var(--standard-font);
+  font-weight: 500;
+  display: flex;
+  box-shadow: var(--standard-box-shadow);
   margin-bottom: 8px;
-    &:hover {
-      color: grey;
-      background-color: var(--blue-box-color4);
-    }
+  &:hover {
+    color: grey;
+    background-color: var(--blue-box-color4);
   }
-  
+}
 
 .image {
   width: 80%;
   max-width: 100%;
   height: auto;
   border-radius: 50%;
-  border-style:hidden;
+  border-style: hidden;
   border-color: var(--blue-box-color4);
 }
 
@@ -242,3 +232,32 @@ h1 {
   padding: 8px;
 }
 /* Text-decoration ta bort länk steck tex */
+
+.spray-can-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.bx-spray-can {
+  color: var(--beige-box-color1);
+  font-size: 150px;
+  &:hover {
+    color: var(--pink-box-color2);
+  }
+}
+
+.beige {
+  background-color: var(--beige-box-color1);
+}
+
+.pink {
+  background-color: var(--pink-box-color1);
+}
+.blue {
+  background-color: var(--blue-box-color1);
+}
+.green {
+  background-color: var(--green-box-color1);
+}
