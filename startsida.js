@@ -13,6 +13,23 @@ console.log(column1);
 
 //const column1=document.getElementById("column-1").className;
 
+async function getWeather() {
+  const response = await fetch(
+    "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/16.158/lat/58.5812/data.json"
+  );
+
+  console.log(response);
+
+  response
+    .json()
+    .then((data) => {
+      console.log(data.timeSeries);
+    })
+    .catch((e) => console.error(e));
+}
+
+getWeather();
+
 let counter = 0;
 
 function clickHandler() {
