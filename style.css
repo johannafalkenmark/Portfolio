@@ -211,7 +211,11 @@ h2 {
   display: inline-flex;
   padding: 8px;
 }
+
+.page-footer-mail{
 /* Text-decoration ta bort länk steck tex */
+}
+
 
 .spray-can-position {
   display: flex;
